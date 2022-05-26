@@ -1,19 +1,48 @@
 body{
     background-color:aqua;
     box-sizing: content-box;
+    
 }
 
 .heading{
     color:blue;
+    font-size:19px;
+}
+
+.image{
+    width:250px;
+    height:270px;
+}
+
+.name{
+    font-size:18px;
+    font-family:"Roboto";
+    color:hotpink
+}
+
+.role{
+    font-size:18px;
+    color:blueviolet;
+    font-family:"Roboto";
+}
+
+.place{
+    font-size:20px;
+    color:blue;
+    font-weight:bold;
+}
+
+#details{
+    color:rgb(34, 1, 65);
 }
 
 .list{
     list-style-type:none;
-    font-size:24px;
-    color:blueviolet
+    font-size:12px;
 }
 
-.column{
-    color:blue;
-    font-size:24px;
+table, td,tr{
+    border:1px solid gray;
+    border-collapse:collapse;
+    padding:10px;
 }
